@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>File Metadata Microservice</title>
+		<link rel="stylesheet" href="/public/css/style.css" type="text/css">
+	</head>
+	<body>
+		<h1>File Metadata Microservice</h1>
+		<div class="content">
+			<p>Upload a file to view its size in a JSON object.</p>
+			<form action="/getfilesize" method="post" enctype="multipart/form-data">
+				<input type="file" name="file">
+				<input type="submit">
+			</form>
+		</div>
+		<div class="container" id="credits">
+			<p id='credits-p'>
+				created by <a href="https://www.linkedin.com/in/fabrizio-vitelli-0539aba4/" target="_blank">Fabrizio Vitelli</a>
+			</p>
+		</div>
+	</body>
+</html>
